@@ -29,7 +29,7 @@ body {
   /* background-color: #dee2e6; */
   /* width: 90%;
     margin: 0 auto; */
-  background-image: url(./images/luke-chesser-unsplash.jpg);
+  background-image: url(/images/luke-chesser-unsplash.jpg);
 
   animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
