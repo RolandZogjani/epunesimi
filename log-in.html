@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="/css/forms.css">
+
+     <!-- Icons from ionicons -->
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+     <title>log-in</title>
+</head>
+
+<body>
+
+    <!-- Nav Bar -->
+    <nav>
+        <div class="logo-div">
+            <a href="index.html"><img src="images/ePunësimi-logo.png" class="logo" alt="logo"></a>
+        </div>
+
+        <div class="header-features">
+            <a href="#" class="header-link">Gjeni punë</a>
+            <a href="#" class="header-link">Shpallni punë</a>
+            <a href="log-in.html" class="btn header-btn1">Kyçu</a>
+            <a href="sign-up.html" class="btn header-btn2">Regjistrohu</a>
+
+        </div>
+
+    </nav>
+
+    <div class="main-container">
+        <h1 class="form-header">Kyçu</h1>
+        <p>Gjeni punën më të përshtatshme për ju </p>
+        <div class="first-btn">
+
+            <a href="#" class="google-btn sizes-tool"><img src="/images/google.png" class="google-icon" alt="google">
+                Kyçu me Google </a>
+        </div>
+        <div class="second-btn first-btn">
+            <a href="#" class="facebook-btn sizes-tool"><img src="/images/facebook.png" class="facebook-icon"
+                    alt="facebook"> Kyçu me Facebook </a>
+        </div>
+        <div class="or">
+            <div>
+                <hr>
+            </div>
+            <div>Apo, kyçu me email</div>
+            <div>
+                <hr>
+            </div>
+        </div>
+        <form>
+
+            <label for="email" class="label-title">Email adresa</label><br><br>
+            <input type="email" id="email" name="email" required placeholder="Email adresa"
+                class="sizes-tool box-shadow" oninvalid="this.setCustomValidity('Ju lutem shkruani një email valide!')"
+                oninput="setCustomValidity('')">
+            <br><br>
+            <label for="password" class="label-title">Fjalëkalimi</label><br><br>
+            <input type="password" id="password" name="password" placeholder="Fjalëkalimi" pattern=".{8,}"  class="sizes-tool box-shadow"
+                required=""
+                autofocus=""
+                oninvalid="this.setCustomValidity('Ju lutem shkruani një password valid!')"
+                oninput="setCustomValidity('')">
+            <br><br>
+            <input type="checkbox" id="checkbox1" name="checkbox1" value="Updates">
+            <label for="checkbox1"> <span>Më mbaj mend</span> </label><br><br>
+
+
+            <input type="submit" value="Kyçu">
+        </form>
+
+        <div class="last-div">
+            <span>Nuk keni llogari?</span>
+            <a href="sign-up.html">Regjistrohuni</a>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-container">
+
+            <ul>
+                <li class="ul-header"> <a href="#hero-section">ePunësimi</a> </li>
+                <li>Rreth nesh</li>
+                <li>Blog</li>
+                <li>Kontakti</li>
+            </ul>
+
+            <ul>
+                <li class="ul-header"> <a href="#">Punëkërkues</a> </li>
+                <li>Regjistrohuni</li>
+                <li>Kyçu</li>
+                <li>Këshilla</li>
+            </ul>
+
+            <ul>
+                <li class="ul-header"> <a href="#">Punëdhënës</a> </li>
+                <li>Regjistrohuni</li>
+                <li>Kyçu</li>
+                <li>Shërbimet</li>
+            </ul>
+
+            <ul>
+                <li class="ul-header">Kontakti</li>
+                <li>
+                   <div class="adress-div">
+                    <ion-icon name="location-outline" class="footer-icon"></ion-icon>
+                    Prishtinë, 10000 , Kosovë
+                  </div>
+
+                </li>
+                <li>
+                    <div class="location-div" >
+                        <ion-icon name="mail-outline" class="footer-icon"></ion-icon>
+                    info@epunesimi.com
+                    </div>
+
+                    <!-- Footer Social Icons -->
+                    <div class="social-icons">
+                        <ion-icon name="logo-facebook" class="footer-icon"></ion-icon>
+                        <ion-icon name="logo-twitter" class="footer-icon"></ion-icon>
+                        <ion-icon name="logo-linkedin" class="footer-icon"></ion-icon>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <div class="copyright-text">
+            <p> Copyright © 2022 - Roland Zogjani. Website i krijuar në kuadër të trajnimit TETE - PBC Academy</p>
+
+        </div>
+
+
+    </footer>
+
+
+</body>
+
+</html>
