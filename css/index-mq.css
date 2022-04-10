@@ -1,0 +1,198 @@
+
+/*   >1900px   */
+
+@media screen and (min-width: 1900px){
+
+    #hero{
+        max-width: 1300px; 
+        margin: 0 auto;
+        
+    }
+}
+
+/*   <1480px   */
+
+@media screen and (max-width: 1480px){
+
+    .hero-container{
+
+        width: 750px;
+      }
+
+    .hero-container h1 {
+    
+        font-size: 4.2rem;
+        margin-bottom: 32px;
+    }
+
+    .hero-img-div {
+        width: 80%;
+      }
+
+
+}
+
+/*   <1300px   */
+
+@media screen and (max-width: 1300px)
+{
+    .hero-img,
+    .job-seeker-img,
+    .businessman-img{
+        position: relative;
+        top: 4.8rem;
+    }
+
+    #testimonial-section{
+        margin-top: 12.8rem;
+    }
+
+}
+
+
+/*   <1200px   */
+
+@media screen and (max-width: 1200px){
+    html{
+        font-size: 52%;
+    }
+
+    .hero-container h1 {
+        font-size: 36px;
+    }
+    
+    #second-section {
+        margin-top: 80px;
+        margin-bottom: 128px;
+    }
+    
+    .job-seeker-img {
+        position: relative;
+        top: 32px;
+    }
+    
+    .businessman-img {
+        position: relative;
+        bottom: -96px;
+    }
+
+    article{
+        padding: 20px;
+    }
+
+    .blog-content{
+        width: 360px;
+    }
+
+}
+
+/*   <1050px   */
+
+@media screen and (max-width: 1050px){
+    
+    .hero-container h1,
+    .second-container h2,
+    .third-container h2,
+    #testimonial-section h2
+    {
+        font-size: 2.8rem;
+    }
+
+    .blog-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* justify-content: center;
+        justify-items: center;
+        align-items: flex-start;
+        */
+        row-gap: 12.8rem; 
+    }
+
+    .blog-container >*{
+        transform: scale(1.12);
+    }
+
+    .header-div {
+        margin-bottom: 12.8rem;
+    }
+
+}
+
+/*   <970px   */
+
+@media screen and (max-width: 970px){
+    
+    article{
+        margin-top: 40px;
+    }
+
+    .testimonial-div3{
+        display: none;
+    }
+
+    .testimonial-container {
+        
+        gap: 12.8rem;
+    }
+
+    .testimonial-container >*{
+        
+        transform: scale(1.12);
+    }
+
+    .testimonial-header {
+        padding-top: 6.4rem;
+        padding-bottom: 8rem;
+      }
+
+
+}
+
+
+/*   <900px   */
+
+@media screen and (max-width: 900px){
+    
+     .hero-img{
+
+        width: 100%;
+
+        position: relative;
+        right: 8rem;
+    }
+
+    /*    
+
+    .job-posts-section{
+        
+        width: 100vh;
+        margin-top: 12.8rem auto 0 auto;
+    }
+
+    footer{
+
+        width: 100vh;
+    }
+
+
+    .testimonial-container >*{
+        
+        transform: scale(1.1);
+    }
+
+    .blog-container >*{
+        transform: scale(1.1);
+    }  */
+
+    .job-posts-container{
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+
+}
+
+
+
+
+
+

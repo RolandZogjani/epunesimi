@@ -9,9 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+
     <!-- CSS Styles -->
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/index-mq.css">
 
     <!-- Icons from ionicons -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -19,27 +20,25 @@
 
     <title>ePunesimi</title>
 </head>
- 
+
 <body>
 
+    <!-- Nav Bar -->
+    <nav class="nav">
+        <div class="logo-div">
+            <a href="index.html"><img src="./images/ePunësimi-logo.png" class="logo" alt="logo"></a>
+        </div>
+        <div class="header-features">
+            <a href="gjeni-pune.html" class="header-link">Gjeni punë</a>
+            <a href="log-in.html" class="header-link">Shpallni punë</a>
+            <a href="log-in.html" class="btn header-btn1">Kyçu</a>
+            <a href="sign-up.html" class="btn header-btn2">Regjistrohu</a>
+            
+        </div>
+        
+    </nav>
     <!-- Main Section -->
     <header id="hero-section">
-        <!-- Nav Bar -->
-        <nav>
-            <div class="logo-div">
-                <a href="index.html"><img src="./images/ePunësimi-logo.png" class="logo" alt="logo"></a>
-            </div>
-            <div class="header-features">
-                <a href="#" class="header-link">Gjeni punë</a>
-                <a href="#" class="header-link">Shpallni punë</a>
-                <a href="log-in.html" class="btn header-btn1">Kyçu</a>
-                <a href="sign-up.html" class="btn header-btn2">Regjistrohu</a>
-
-            </div>
-
-        </nav>
-        <!-- Hero -->
-        <div id="hero">
 
             <div class="hero-container">
                 <h1>Mirësevini në platformën ePunësimi</h1>
@@ -48,7 +47,7 @@
                     voluptate ipsa, impedit, quia assumenda, error enim magnam fugiat cumque nulla. Veritatis earum
                     velit est totam.
                 </p>
-                <a href="#" class="hero-btn1 btn">Gjeni punë</a>
+                <a href="gjeni-pune.html" class="hero-btn1 btn">Gjeni punë</a>
                 <a href="#" class="hero-btn2 btn">Shpallni punë</a>
 
             </div>
@@ -57,8 +56,6 @@
 
                 <img class="hero-img" src="./images/casual-man.png" alt="hero-img">
             </div>
-
-        </div>
 
     </header>
 
@@ -69,9 +66,10 @@
             alt="girl-and-boy-sitting-with-laptop">
 
         <div class="second-container">
-            <h4 class ="question-header">Jeni punëkërkues?</h4>
-            <h2>Mos prisni më gjatë. </h2>
-            <h2>Gjeje punën e ëndrrave në vetëm pak sekonda</h2>
+            <h4 class="question-header">Jeni punëkërkues?</h4>
+            <h2>Mos prisni më gjatë.
+                Gjeje punën e ëndrrave në vetëm pak sekonda
+            </h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Nesciunt porro facilis exercitationem nulla aperiam dolorem quis quisquam?
                 Natus, ducimus commodi! Voluptas recusandae vel, nobis minima fugit nisi iste.
@@ -93,8 +91,9 @@
 
         <div class="third-container">
             <h4 class="question-header">Jeni punëdhënës?</h4>
-            <h2>Ne jemi zgjidhja për ju. </h2>
-            <h2>Gjeni kuadrot më të mira për kompaninë tuaj.</h2>
+            <h2>Ne jemi zgjidhja për ju.
+                Gjeni kuadrot më të mira për kompaninë tuaj
+            </h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Nesciunt porro facilis exercitationem nulla aperiam dolorem quis quisquam?
                 Natus, ducimus commodi! Voluptas recusandae vel, nobis minima fugit nisi iste.
@@ -108,7 +107,8 @@
             </div>
 
         </div>
-        <img class="businessman-img" src="./images/businessman-in-dark-blue-suit-waving-hello.png" alt="businessman-img">
+        <img class="businessman-img" src="./images/businessman-in-dark-blue-suit-waving-hello.png"
+            alt="businessman-img">
 
 
     </section>
@@ -306,6 +306,52 @@
 
     </article>
 
+    <!-- Latest Job posts -->
+    <section class="job-posts-section">
+    
+        <h2>Punët e postuara së fundmi</h2>
+    
+        <div class="job-posts-container">
+            <div class="div1 job-box">
+                <a href="#">Administratë</a>
+            </div>
+            <div class="div2 job-box">
+                <a href="#">Banka dhe Financa</a>
+            </div>
+            <div class="div3 job-box">
+                <a href="#">Hotileri dhe Turizëm</a>
+            </div>
+            <div class="div4 job-box">
+                <a href="#">Inxhinieri</a>
+            </div>
+            <div class="div5 job-box">
+                <a href="#">Kontabilitet</a>
+            </div>
+            <div class="div6 job-box">
+                <a href="#">Marketing</a>
+            </div>
+            <div class="div7 job-box">
+                <a href="#">Menaxhment</a>
+            </div>
+            <div class="div8 job-box">
+                <a href="#">Web Development</a>
+            </div>
+            <div class="div9 job-box">
+                <a href="#">Prodhimtari</a>
+            </div>
+            <div class="div10 job-box">
+                <a href="#">Teknologji Informative</a>
+            </div>
+            <div class="div11 job-box">
+                <a href="#">Ndërtimtari</a>
+            </div>
+            <div class="div12 job-box">
+                <a href="#">Sport</a>
+            </div>
+        </div>
+    
+    
+    </section>
 
 
     <!-- FOOTER -->
@@ -315,38 +361,39 @@
 
             <ul>
                 <li class="ul-header"> <a href="#hero-section">ePunësimi</a> </li>
-                <li>Rreth nesh</li>
-                <li>Blog</li>
-                <li>Kontakti</li>
+                <li><a href="#">Rreth nesh</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Kontakti</a></li>
             </ul>
 
             <ul>
                 <li class="ul-header"> <a href="#">Punëkërkues</a> </li>
-                <li>Regjistrohuni</li>
-                <li>Kyçu</li>
-                <li>Këshilla</li>
+                <li><a href="sign-up.html">Regjistrohuni</a> </li>
+                <li><a href="log-in.html">Kyçu</a></li>
+                <li><a href="#">Këshilla</a> </li>
             </ul>
 
             <ul>
                 <li class="ul-header"> <a href="#">Punëdhënës</a> </li>
-                <li>Regjistrohuni</li>
-                <li>Kyçu</li>
-                <li>Shërbimet</li>
+                <li><a href="sign-up.html">Regjistrohuni</a> </li>
+                <li><a href="log-in.html">Kyçu</a> </li>
+                <li><a href="#">Shërbimet</a> </li>
             </ul>
 
             <ul>
                 <li class="ul-header">Kontakti</li>
                 <li>
-                   <div class="adress-div">
-                    <ion-icon name="location-outline" class="footer-icon"></ion-icon>
-                    Prishtinë, 10000 , Kosovë
-                  </div>
+                    <div class="adress-div">
+                        <ion-icon name="location-outline" class="footer-icon"></ion-icon>
+                        Prishtinë, 10000 , Kosovë
+                    </div>
 
                 </li>
                 <li>
-                    <div class="location-div" >
+                    <div class="location-div">
                         <ion-icon name="mail-outline" class="footer-icon"></ion-icon>
-                    info@epunesimi.com
+                        <a href="mailto:rolandzogjani@outlook.com">rolandzogjani@outlook.com</a>
+                        <!-- info@epunesimi.com -->
                     </div>
 
                     <!-- Footer Social Icons -->

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/gjeni-pune.css">
+
+    <!-- Icons from ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <title>ePunesimi</title>
+</head>
+
+<body>
+
+    <!-- Nav Bar -->
+    <nav class="nav">
+        <div class="logo-div">
+            <a href="index.html"><img src="./images/ePunësimi-logo.png" class="logo" alt="logo"></a>
+        </div>
+        <div class="header-features">
+            <a href="index.html" class="header-link">Faqja kryesore</a>
+            <a href="#jobs" class="header-link">Shiko shpalljet</a>
+            <a href="#" class="header-link">Krijo profil</a>
+            <a href="log-in.html" class="btn header-btn1">Kyçu</a>
+            <a href="sign-up.html" class="btn header-btn2">Regjistrohu</a>
+            
+        </div>
+        
+    </nav>
+    <!-- Main Section -->
+    <header id="hero-section">
+        
+
+            <div class="hero-container">
+                <h1>Gjeni punën e cila ju përshtatet më së miri!</h1>
+                <p class="main-paragraph">Kërko mbi 1000 punë të cilat postohen çdo muaj në ePunësimi
+                </p>
+                <a href="#" class="hero-btn1 btn">Krijo profil</a>
+                <!-- <a href="#" class="hero-btn2 btn">Shpallni punë</a> -->
+
+            </div>
+
+            <div class="hero-img-div">
+
+                <img class="hero-img-gjp" src="./images/recruiter-found-employee.png" alt="hero-img">
+            </div>
+
+    </header>
+
+    
+
+    <!-- Search Bar Section -->
+    <section class="form-section">
+
+        <div class="form-container">
+
+            <form>
+                <div class="search-bar-div">
+                    <ion-icon name="search-outline" class="search-icon"></ion-icon>
+                    <input type="text" id="search" name="search" placeholder="Kërko punë" class="search-bar">
+                </div>
+                <div class="select-vendet-div">
+
+                    <select name="vendet" id="vendet">
+                        <option value="" disabled selected>Zgjedh vendin</option>
+                        <option value="prishtine">Prishtinë</option>
+                        <option value="fushe-kosove">Fushë-Kosovë</option>
+                        <option value="peje">Pejë</option>
+                        <option value="gjakove">Gjakovë</option>
+                        <option value="ferizaj">Ferizaj</option>
+                        <option value="gjilan">Gjilan</option>
+                        <option value="mitrovice">Mitrovicë</option>
+                        <option value="podujeve">Podujevë</option>
+                        <option value="suhareke">Suharekë</option>
+                        <option value="istog">Istog</option>
+                        <option value="skenderaj">Skenderaj</option>
+                        <option value="vushtrri">Vushtrri</option>
+                    </select>
+                </div>
+
+                <div class="select-kategorite-div">
+
+                    <select name="kategorite" id="kategorite">
+                        <option value="" disabled selected>Zgjedh kategorinë</option>
+                        <option value="administrate">Administratë</option>
+                        <option value="arkitekture-dizajn">Arkitekturë dhe Dizajn</option>
+                        <option value="banka-financa">Banka dhe Financa</option>
+                        <option value="call-center">Call Center</option>
+                        <option value="hotileri">Hotileri dhe turizëm</option>
+                        <option value="inxhinieri">Inxhinieri</option>
+                        <option value="juridike">Juridike</option>
+                        <option value="kontabilitet">Kontabilitet</option>
+                        <option value="marketing">Marketing</option>
+                        <option value="menaxhment">Menaxhment</option>
+                        <option value="ndertimtari">Ndërtimtari</option>
+                        <option value="prodhimtari">Prodhimtari</option>
+                        <option value="sigurime">Sigurime</option>
+                        <option value="shendetesore">Shërbime shëndetësore</option>
+                        <option value="sport">Sport</option>
+                        <option value="sport">Teknologji Informative - IT</option>
+                        <option value="sport">Web Development</option>
+                        <option value="tjera">Tjera</option>
+                    </select>
+                </div>
+
+                <div class="submit-div">
+                    <input type="submit" value="Kërko">
+
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+    
+    <!-- Job list section -->
+    <section id="jobs" class="jobs-section">
+
+        <!-- Job Counter Section -->
+            <div class="counter-container">
+                <span class="fundit">Të fundit</span>
+                <span class="shpallje-aktive"><b>120</b> shpallje aktive</span>
+            </div>
+
+        <!-- Job card 1 Start -->
+        <div class="job-card-1">
+            <div class="job-details">
+                <div class="job-logo">
+                    <a href="#"> <img src="../images/company-logo/pbc logo.png" class="company-logo" alt="pbca logo">
+                    </a>
+                </div>
+                <div class="job-header">
+                    <h3>Back-End developer</h3>
+                </div>
+                <div class="job-description-details">
+                    <div class="company">
+                        <ion-icon name="briefcase-outline"></ion-icon>
+                        <span>PBC</span>
+                    </div>
+                    <div class="location">
+                        <ion-icon name="location-outline"></ion-icon>
+                        <span>Prishtine</span>
+                    </div>
+                    <div class="category">
+                        <ion-icon name="pricetag-outline"></ion-icon>
+                        <span>Web development</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="job-apply">
+                <div class="job-butons">
+                    <div class="bookmark-div">
+                        <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                    <div class="apply-btn">
+                        <a href="#">Apliko</a>
+                    </div>
+                </div>
+
+                <div class="time-posted">
+                    <span>7 orë më parë</span>
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- Job card 1 End -->
+
+        <!-- Job card 2 Start -->
+        <div class="job-card-1">
+
+            <div class="job-details">
+                <div class="job-logo">
+                    <a href="#"> <img src="./images/company-logo/gjirafa-logo.png" class="company-logo" alt="pbca logo">
+                    </a>
+                </div>
+                <div class="job-header">
+                    <h3>Front-End Developer</h3>
+                </div>
+                <div class="job-description-details">
+                    <div class="company">
+                        <ion-icon name="briefcase-outline"></ion-icon>
+                        <span>Gjirafa</span>
+                    </div>
+                    <div class="location">
+                        <ion-icon name="location-outline"></ion-icon>
+                        <span>Prishtine</span>
+                    </div>
+                    <div class="category">
+                        <ion-icon name="pricetag-outline"></ion-icon>
+                        <span>Web development</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="job-apply">
+                <div class="job-butons">
+                    <div class="bookmark-div">
+                        <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                    <div class="apply-btn">
+                        <a href="#">Apliko</a>
+                    </div>
+                </div>
+
+                <div class="time-posted">
+                    <span>7 orë më parë</span>
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- Job card 2 End -->
+
+        <!-- Job card 3 Start -->
+        <div class="job-card-1">
+
+            <div class="job-details">
+                <div class="job-logo">
+                    <a href="#"> <img src="./images/company-logo/keds-logo.png" class="company-logo" alt="pbca logo">
+                    </a>
+                </div>
+                <div class="job-header">
+                    <h3>Zëdhënës/e</h3>
+                </div>
+                <div class="job-description-details">
+                    <div class="company">
+                        <ion-icon name="briefcase-outline"></ion-icon>
+                        <span>KEDS</span>
+                    </div>
+                    <div class="location">
+                        <ion-icon name="location-outline"></ion-icon>
+                        <span>Prishtine</span>
+                    </div>
+                    <div class="category">
+                        <ion-icon name="pricetag-outline"></ion-icon>
+                        <span>Juridike</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="job-apply">
+                <div class="job-butons">
+                    <div class="bookmark-div">
+                        <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                    <div class="apply-btn">
+                        <a href="#">Apliko</a>
+                    </div>
+                </div>
+
+                <div class="time-posted">
+                    <span>7 orë më parë</span>
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- Job card 3 End -->
+
+        <!-- Job card 4 Start -->
+        <div class="job-card-1">
+            
+            <div class="job-details">
+                <div class="job-logo">
+                    <a href="#"> <img src="./images/company-logo/aztech-logo.png" class="company-logo" alt="pbca logo"> </a>
+                </div>
+                <div class="job-header">
+                    <h3>Menaxher/e</h3>
+                </div>
+                <div class="job-description-details">
+                    <div class="company">
+                        <ion-icon name="briefcase-outline"></ion-icon>
+                        <span>Aztech</span>
+                    </div>
+                    <div class="location">
+                        <ion-icon name="location-outline"></ion-icon>
+                        <span>Fushë-Kosovë</span>
+                    </div>
+                    <div class="category">
+                        <ion-icon name="pricetag-outline"></ion-icon>
+                        <span>Menaxhment</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="job-apply">
+                <div class="job-butons">
+                    <div class="bookmark-div">
+                        <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                    <div class="apply-btn">
+                        <a href="#">Apliko</a>
+                    </div>
+                </div>
+                
+                <div class="time-posted">
+                    <span>7 orë më parë</span>
+                </div>
+
+
+            </div>
+            
+        </div>
+        <!-- Job card 4 End -->
+
+        <!-- Job card 5 Start -->
+        <div class="job-card-1">
+            
+            <div class="job-details">
+                <div class="job-logo">
+                    <a href="#"> <img src="./images/company-logo/pbc logo.png" class="company-logo" alt="pbca logo"> </a>
+                </div>
+                <div class="job-header">
+                    <h3>Shitës/e</h3>
+                </div>
+                <div class="job-description-details">
+                    <div class="company">
+                        <ion-icon name="briefcase-outline"></ion-icon>
+                        <span>Gorenje</span>
+                    </div>
+                    <div class="location">
+                        <ion-icon name="location-outline"></ion-icon>
+                        <span>Prizeren</span>
+                    </div>
+                    <div class="category">
+                        <ion-icon name="pricetag-outline"></ion-icon>
+                        <span>Administratë</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="job-apply">
+                <div class="job-butons">
+                    <div class="bookmark-div">
+                        <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                    <div class="apply-btn">
+                        <a href="#">Apliko</a>
+                    </div>
+                </div>
+                
+                <div class="time-posted">
+                    <span>7 orë më parë</span>
+                </div>
+
+
+            </div>
+            
+        </div>
+        <!-- Job card 5 End -->
+
+
+    </section>
+
+    <section class="pagination-section">
+
+        <div class="pagination-div">
+
+            <ul>
+                <li><ion-icon name="chevron-back-outline"></ion-icon></li>
+                <li class="first-page-nr"><span>1</span></li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li><ion-icon name="chevron-forward-outline"></ion-icon></li>
+            </ul>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-container">
+
+            <ul>
+                <li class="ul-header"> <a href="#hero-section">ePunësimi</a> </li>
+                <li><a href="#">Rreth nesh</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Kontakti</a></li>
+            </ul>
+
+            <ul>
+                <li class="ul-header"> <a href="#">Punëkërkues</a> </li>
+                <li><a href="sign-up.html">Regjistrohuni</a> </li>
+                <li><a href="log-in.html">Kyçu</a></li>
+                <li><a href="#">Këshilla</a> </li>
+            </ul>
+
+            <ul>
+                <li class="ul-header"> <a href="#">Punëdhënës</a> </li>
+                <li><a href="sign-up.html">Regjistrohuni</a> </li>
+                <li><a href="log-in.html">Kyçu</a> </li>
+                <li><a href="#">Shërbimet</a> </li>
+            </ul>
+
+            <ul>
+                <li class="ul-header">Kontakti</li>
+                <li>
+                    <div class="adress-div">
+                        <ion-icon name="location-outline" class="footer-icon"></ion-icon>
+                        Prishtinë, 10000 , Kosovë
+                    </div>
+
+                </li>
+                <li>
+                    <div class="location-div">
+                        <ion-icon name="mail-outline" class="footer-icon"></ion-icon>
+                        <a href="mailto:rolandzogjani@outlook.com">rolandzogjani@outlook.com</a>
+                        <!-- info@epunesimi.com -->
+                    </div>
+
+                    <!-- Footer Social Icons -->
+                    <div class="social-icons">
+                        <ion-icon name="logo-facebook" class="footer-icon"></ion-icon>
+                        <ion-icon name="logo-twitter" class="footer-icon"></ion-icon>
+                        <ion-icon name="logo-linkedin" class="footer-icon"></ion-icon>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <div class="copyright-text">
+            <p> Copyright © 2022 - Roland Zogjani. Website i krijuar në kuadër të trajnimit TETE - PBC Academy</p>
+
+        </div>
+
+
+    </footer>
+
+
+</body>
+
+</html>
