@@ -32,9 +32,9 @@ html {
 
 .hero-img-gjp{
     width: 95%;
-    position: relative;
+    /* position: relative;
     bottom: 2rem;
-    right: 6.4rem;
+    right: 6.4rem; */
 }
 
 /* SEARCH BAR - FORM */
