@@ -2,31 +2,39 @@
 html {
     font-size: 62.5%;
     /*1rem = 10px */
-  }
+}
   
-  * {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
   /* Header Styles */
 
+#hero-section{
+    margin-bottom: 8rem;
+}
+
+.hero-grid-2{
+    column-gap: 6.4rem;
+}
+
 .hero-container h1{
+    font-size: 3.6rem;
     max-width: 65rem;
+    margin-top: 3.2rem;
 }
 
 .main-paragraph{
     font-size: 2rem;
 }
-.hero-img-div{
-    position: relative;
-    left: 12.8rem;
-}
+
 .hero-img-gjp{
-    width: 70%;
+    width: 95%;
     position: relative;
     bottom: 2rem;
+    right: 6.4rem;
 }
 
 /* SEARCH BAR - FORM */

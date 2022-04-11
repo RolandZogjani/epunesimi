@@ -1,198 +1,282 @@
+/**   Me e vogel se 1345px   **/
 
-/*   >1900px   */
+@media (max-width: 84em) {
+  .hero-grid-2,
+  .second-sec-grid,
+  .third-section-grid {
+    max-width: 120rem;
+  }
+  .third-section-grid {
+    margin-left: 2.4;
+  }
 
-@media screen and (min-width: 1900px){
+  .hero-img {
+    margin-top: 2.4rem;
+    margin-right: 24rem;
+  }
 
-    #hero{
-        max-width: 1300px; 
-        margin: 0 auto;
+  .job-seeker-img {
+    width: 70%;
+  }
+
+  .businessman-img {
+    width: 65%;
+  }
+
+  .blog-container {
+    padding: 1.6rem;
+  }
+}
+
+/**   Me e vogel se 1200px   **/
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+}
+
+/**   Me e vogel se 1110px   **/
+
+@media (max-width: 70em) {
+  html {
+    /* 8px / 16px  */
+    font-size: 50%;
+  }
+
+  .job-seeker-img {
+    width: 70%;
+  }
+
+  .businessman-img {
+    width: 60%;
+  }
+}
+
+/**   Me e vogel se 976px   **/
+@media (max-width: 61em) {
+  .hero-grid-2,
+  .second-sec-grid,
+  .third-section-grid {
+    max-width: 110rem;
+    padding: 3.6rem;
+  }
+
+  .hero-container h1,
+  .second-container h2,
+  .third-container h2 {
+    font-size: 3rem;
+    max-width: 45rem;
+  }
+
+  .testimonial-card-container {
+    display: grid;
+    grid-template-columns: 40rem 40rem;
+    justify-content: center;
+    row-gap: 6.4rem;
+    margin-top: 4.8rem;
+  }
+
+  .blog-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: center; */
+    align-items: flex-start;
+    row-gap: 6.4rem;
+  }
+
+
+}
+
+/**   Me e vogel se 805px   **/
+@media (max-width: 50em) {
+  html {
+    /* 7px / 16px  */
+    font-size: 43%;
+  }
+
+  .hero-grid-2 {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-container h1 {
+    font-size: 4.4rem;
+    max-width: 60rem;
+  }
+  .main-paragraph {
+    max-width: 60rem;
+    font-size: 1.8rem;
+    line-height: 1.7;
+  }
+
+.btn{
+    font-size: 2rem;
+}
+
+  .hero-btn1,
+  .hero-btn2 {
+    font-size: 2.4rem;
+  }
+
+  .hero-btn1 {
+    margin-right: 2.4rem;
+    /* transition: all 0.5s; */
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .quotation-svg {
+    width: 4rem;
+  }
+
+  .job-seeker-img {
+    position: relative;
+    top: 8rem;
+  }
+}
+
+/**   Me e vogel se 605px   **/
+
+@media (max-width: 38em){
+
+    article {
+
+        margin-top: 6.4rem;
+      }
+
+    .job-posts-container{
+    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         
     }
-}
 
-/*   <1480px   */
+    .second-sec-grid{
 
-@media screen and (max-width: 1480px){
+        grid-template-columns: 1fr;
 
-    .hero-container{
-
-        width: 750px;
-      }
-
-    .hero-container h1 {
-    
-        font-size: 4.2rem;
-        margin-bottom: 32px;
-    }
-
-    .hero-img-div {
-        width: 80%;
-      }
-
-
-}
-
-/*   <1300px   */
-
-@media screen and (max-width: 1300px)
-{
-    .hero-img,
-    .job-seeker-img,
-    .businessman-img{
-        position: relative;
-        top: 4.8rem;
-    }
-
-    #testimonial-section{
-        margin-top: 12.8rem;
-    }
-
-}
-
-
-/*   <1200px   */
-
-@media screen and (max-width: 1200px){
-    html{
-        font-size: 52%;
-    }
-
-    .hero-container h1 {
-        font-size: 36px;
-    }
-    
-    #second-section {
-        margin-top: 80px;
-        margin-bottom: 128px;
-    }
-    
-    .job-seeker-img {
-        position: relative;
-        top: 32px;
-    }
-    
-    .businessman-img {
-        position: relative;
-        bottom: -96px;
-    }
-
-    article{
-        padding: 20px;
-    }
-
-    .blog-content{
-        width: 360px;
-    }
-
-}
-
-/*   <1050px   */
-
-@media screen and (max-width: 1050px){
-    
-    .hero-container h1,
-    .second-container h2,
-    .third-container h2,
-    #testimonial-section h2
-    {
-        font-size: 2.8rem;
-    }
-
-    .blog-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        /* justify-content: center;
         justify-items: center;
-        align-items: flex-start;
-        */
-        row-gap: 12.8rem; 
+
+        margin: 0 auto;
+        text-align: center;
     }
 
-    .blog-container >*{
-        transform: scale(1.12);
+    .second-section-btn{
+        margin: 0 auto;
+        margin-top: 3.2rem;
+    }
+    .job-seeker-img{
+        width: 50%;
+        margin-bottom: 6.4rem;
     }
 
-    .header-div {
-        margin-bottom: 12.8rem;
+    .third-section-grid{
+
+        grid-template-columns: 1fr;
+
+        justify-items: center;
+
+        margin: 0 auto;
+        text-align: center;
     }
 
-}
+    .second-section-btn{
+        margin: 0 auto;
+        margin-top: 3.2rem;
+    }
+    .businessman-img{
+        width: 40%;
+        margin: 0;
+        margin-top: 12.8rem;
 
-/*   <970px   */
+        grid-area: 1/1  ;
 
-@media screen and (max-width: 970px){
-    
-    article{
-        margin-top: 40px;
     }
 
     .testimonial-div3{
         display: none;
     }
 
-    .testimonial-container {
-        
-        gap: 12.8rem;
+    .testimonial-card-container {
+    
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 9.6rem;
+    
     }
 
-    .testimonial-container >*{
-        
-        transform: scale(1.12);
-    }
-
-    .testimonial-header {
-        padding-top: 6.4rem;
-        padding-bottom: 8rem;
+    .blog-container {
+        /* grid-template-columns: 30rem 30rem; */
+        /* justify-content: center; */
+        align-items: flex-start;
+        /* row-gap: 3.2rem; */
       }
 
+      .blog-container >*{
+          transform: scale(0.9);
+      }
 
 }
 
 
-/*   <900px   */
+/**   Me e vogel se 485px   **/
 
-@media screen and (max-width: 900px){
+@media (max-width: 30em){
+
+
+    .hero-container h1 {
+        font-size: 3.6rem;
+        max-width: 60rem;
+    }
+
+    .main-paragraph {
+        max-width: 48rem;
+        font-size: 1.8rem;
+        line-height: 1.7;
+        margin: 0 auto;
+        margin-bottom: 6.4rem;
     
-     .hero-img{
-
-        width: 100%;
-
-        position: relative;
-        right: 8rem;
     }
 
-    /*    
-
-    .job-posts-section{
-        
-        width: 100vh;
-        margin-top: 12.8rem auto 0 auto;
-    }
-
-    footer{
-
-        width: 100vh;
-    }
-
-
-    .testimonial-container >*{
-        
-        transform: scale(1.1);
+    .blog-container {
+        grid-template-columns: 1fr;
+        /* justify-content: center; */
+        align-items: center;
+        justify-content: center;
+        row-gap: 6.4rem;
     }
 
     .blog-container >*{
-        transform: scale(1.1);
-    }  */
+        transform: scale(1.05);
+        width: 35rem;
+        text-align: center;
+    }
+
+    .article-div1,
+    .article-div3{
+        display: none;
+    }
+    
 
     .job-posts-container{
-        grid-template-columns: repeat(3, 1fr);
-        
+    
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
+
+    
 
 }
 
+/* 
+SPACE SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 
-
-
-
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/

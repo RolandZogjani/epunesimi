@@ -43,23 +43,32 @@ body {
   }
 }
 
-/* Navigation Bar */
-nav {
+/* Header Styles */
+
+.header{
   background-color: #fff;
-  height: 100px;
-  padding: 0 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 3.2rem 3.2rem;
+}
+
+.nav-brand ul{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 1.2rem;
+
 }
 
-.logo-div{
-  position: relative;
-  right: 4.8rem;
+.nav-logo{
+  width: 42px;
 }
 
-.logo{
-  width: 28rem;
+.nav-brand-name{
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #180a0a;
 }
 
 .header-features a {
@@ -69,17 +78,17 @@ nav {
 .header-features {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 3.2rem;
 }
 
-.header-link {
+.header-link,
+.header-link:visited {
   color: #180a0a;
   font-size: 1.8rem;
   font-weight: 500;
 }
-
-/* .header-link:hover {
-  border-bottom: 2px solid #4263eb;
+/* .header-link:hover{
+    border-bottom: 2px solid #4263eb;
 } */
 
 .header-link:after {
@@ -100,13 +109,12 @@ nav {
   border-radius: 4px;
   text-decoration: none;
   transition: all 0.5s;
+  font-weight: 500;
 }
-
 .header-btn1,
 .header-btn2 {
   font-size: 1.8rem;
 }
-
 .header-btn1{
   color: #180a0a;
 }
@@ -115,18 +123,7 @@ nav {
   color: #fff;
   background-color: #4263eb;
   position: relative;
-  right: 8px;
-  transition: all 0.5s;
-}
-.header-btn1:hover {
-  background-color: #4263eb;
-  border: 1px solid #4263eb;
-  color: #fff;
-}
-.header-btn2:hover {
-  background-color: #fff;
-  border: 1px solid #4263eb;
-  color: #180a0a;
+  right: 0.8rem;
 }
 
 /* Form Container */
