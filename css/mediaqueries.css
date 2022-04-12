@@ -1,0 +1,362 @@
+/**   Me e vogel se 1345px   **/
+
+@media (max-width: 84em) {
+
+  .hero-grid-2,
+  .second-sec-grid,
+  .third-section-grid {
+    max-width: 120rem;
+  }
+
+  .third-section-grid {
+    margin-left: 2.4;
+  }
+
+  .hero-img {
+    margin-top: 2.4rem;
+    margin-right: 24rem;
+  }
+
+  .job-seeker-img {
+    width: 70%;
+  }
+
+  .businessman-img {
+    width: 65%;
+  }
+
+  .blog-container {
+    padding: 1.6rem;
+  }
+}
+
+/**   Me e vogel se 1200px   **/
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+}
+
+/**   Me e vogel se 1110px   **/
+
+@media (max-width: 70em) {
+  html {
+    /* 8px / 16px  */
+    font-size: 50%;
+  }
+
+  .job-seeker-img {
+    width: 70%;
+  }
+
+  .businessman-img {
+    width: 60%;
+  }
+}
+
+/**   Me e vogel se 976px   **/
+@media (max-width: 61em) {
+
+  .hero-grid-2,
+  .second-sec-grid,
+  .third-section-grid {
+    max-width: 110rem;
+    padding: 3.6rem;
+  }
+
+  .hero-container h1,
+  .second-container h2,
+  .third-container h2 {
+    font-size: 3rem;
+    max-width: 45rem;
+  }
+
+  .testimonial-card-container {
+    display: grid;
+    grid-template-columns: 40rem 40rem;
+    justify-content: center;
+    row-gap: 6.4rem;
+    margin-top: 4.8rem;
+  }
+
+  .blog-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: center; */
+    align-items: flex-start;
+    row-gap: 6.4rem;
+  }
+
+  /* MOBILE NAVIGATION */
+
+  .btn-mobile-nav {
+
+    display: block;
+  }
+
+  .nav {
+    background-color: rgba(255, 255, 255, 0.97);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* To hide the mobile nav */
+    opacity: 0;
+
+    /* To make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* To hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .header-features {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .header-features a:link,
+  .header-features a:visited {
+    font-size: 3rem;
+  }
+
+
+}
+
+/**   Me e vogel se 805px   **/
+@media (max-width: 50em) {
+  html {
+    /* 7px / 16px  */
+    font-size: 43%;
+  }
+
+  .hero-grid-2 {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-container h1 {
+    font-size: 4.4rem;
+    max-width: 60rem;
+  }
+
+  .main-paragraph {
+    max-width: 60rem;
+    font-size: 1.8rem;
+    line-height: 1.7;
+  }
+
+  .btn {
+    font-size: 2rem;
+  }
+
+  .hero-btn1,
+  .hero-btn2 {
+    font-size: 2.4rem;
+  }
+
+  .hero-btn1 {
+    margin-right: 2.4rem;
+    /* transition: all 0.5s; */
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .quotation-svg {
+    width: 4rem;
+  }
+
+  .job-seeker-img {
+    position: relative;
+    top: 8rem;
+  }
+
+  /* Gjeni-pune.html */
+
+  .hero-img-div {
+    grid-area: 1/1;
+  }
+
+  .hero-img-gjp {
+    width: 40%;
+  }
+
+
+
+
+}
+
+/**   Me e vogel se 605px   **/
+
+@media (max-width: 38em) {
+
+  article {
+
+    margin-top: 6.4rem;
+  }
+
+  .job-posts-container {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+
+  .second-sec-grid {
+
+    grid-template-columns: 1fr;
+
+    justify-items: center;
+
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .second-section-btn {
+    margin: 0 auto;
+    margin-top: 3.2rem;
+  }
+
+  .job-seeker-img {
+    width: 50%;
+    margin-bottom: 6.4rem;
+  }
+
+  .third-section-grid {
+
+    grid-template-columns: 1fr;
+
+    justify-items: center;
+
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .second-section-btn {
+    margin: 0 auto;
+    margin-top: 3.2rem;
+  }
+
+  .businessman-img {
+    width: 40%;
+    margin: 0;
+    margin-top: 12.8rem;
+
+    grid-area: 1/1;
+
+  }
+
+  .testimonial-div3 {
+    display: none;
+  }
+
+  .testimonial-card-container {
+
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 9.6rem;
+
+  }
+
+  .blog-container {
+    /* grid-template-columns: 30rem 30rem; */
+    /* justify-content: center; */
+    align-items: flex-start;
+    /* row-gap: 3.2rem; */
+  }
+
+  .blog-container>* {
+    transform: scale(0.9);
+  }
+
+  
+
+
+
+}
+
+
+/**   Me e vogel se 485px   **/
+
+@media (max-width: 30em) {
+
+
+  .hero-container h1 {
+    font-size: 3.6rem;
+    max-width: 60rem;
+  }
+
+  .main-paragraph {
+    max-width: 48rem;
+    font-size: 1.8rem;
+    line-height: 1.7;
+    margin: 0 auto;
+    margin-bottom: 6.4rem;
+
+  }
+
+  .blog-container {
+    grid-template-columns: 1fr;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+    row-gap: 6.4rem;
+  }
+
+  .blog-container>* {
+    transform: scale(1.05);
+    width: 35rem;
+    text-align: center;
+  }
+
+  .article-div1,
+  .article-div3 {
+    display: none;
+  }
+
+
+  .job-posts-container {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+
+}
+
+/* 
+SPACE SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
