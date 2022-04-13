@@ -65,6 +65,10 @@ body {
 
 }
 
+.nav-brand a{
+  text-decoration: none;
+}
+
 .nav-logo{
   width: 42px;
 }

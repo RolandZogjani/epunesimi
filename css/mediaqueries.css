@@ -405,9 +405,12 @@
 
 }
 
-/** Me e vogel se 385px **/
+/* Me e vogel se 420px */
+@media (max-width: 26em){
 
-@media (max-width: 24em){
+  .hero-grid-2{
+    margin-top: 4.8rem;
+  }
 
   .blog-img {
     width: 32rem;
@@ -475,6 +478,76 @@
 
  
 }
+
+
+/** Me e vogel se 385px **/
+
+/* @media (max-width: 24em){
+
+  .blog-img {
+    width: 32rem;
+    height: 32rem;
+   
+  }
+
+  .blog-content {
+    max-width: 32rem;
+    margin: 2.4rem auto 2.4rem auto;
+  }
+
+  .job-posts-container {
+
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .div7,
+  .div8,
+  .div9,
+  .div10,
+  .div11,
+  .div12{
+    display: none;
+  }
+
+  .nav{
+    top: -20rem;
+  } */
+
+  /* Gjeni-pune.html */
+
+  /* .hero-img-gjp {
+    display: none;
+  }
+
+  .hero-container{
+    margin-top: 0;
+  }
+  
+  .fundit {
+    margin-left: 1.6rem;
+  }
+  
+  .shpallje-aktive {
+    margin-right: 1.6rem;
+  }
+
+  .job-description-details{
+    margin-top: 2rem;
+  }
+  
+  .job-description-details ion-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .job-card-1{
+    padding: 0.8rem;
+  }
+
+
+} */
+
 
 /* 
 SPACE SYSTEM (px)

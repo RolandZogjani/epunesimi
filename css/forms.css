@@ -43,8 +43,6 @@ body {
   }
 }
 
-/* Header Styles */
-
 /* NAVIGATION BAR */
 
 .header{
@@ -52,8 +50,7 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  padding: 2.4rem 3.2rem;
-  /* margin: 1.6rem auto; */
+  padding: 3.2rem 3.2rem;
   position: relative;
 
   background-color: #fff;
@@ -64,6 +61,10 @@ body {
   align-items: center;
   gap: 1.2rem;
 
+}
+
+.nav-brand a{
+  text-decoration: none;
 }
 
 .nav-logo{
@@ -120,15 +121,29 @@ body {
 .header-btn2 {
   font-size: 1.8rem;
 }
-.header-btn1{
+
+.header-btn1:link,
+.header-btn1:visited{
   color: #180a0a;
 }
 
-.header-btn2 {
+.header-btn1:hover{
+  color: #fff;
+  background-color: #4263eb;
+}
+
+.header-btn2:link,
+.header-btn2:visited {
   color: #fff;
   background-color: #4263eb;
   position: relative;
   right: 0.8rem;
+}
+
+.header-btn2:hover {
+  
+  background-color: #fff;
+  color: #180a0a;
 }
 
 /* MOBILE */
@@ -152,7 +167,8 @@ body {
   display: none;
 }
 
-/* Form Container */
+
+/* FORM STYLES */
 .main-container {
   background-color: #4e8098;
   max-width: 42rem;
