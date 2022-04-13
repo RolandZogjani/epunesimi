@@ -219,17 +219,19 @@ body {
   margin-top: 8px;
   margin-bottom: 8px;
 }
+
 .label-title {
   font-size: 1.6rem;
   /* font-weight: bold; */
   font-weight: 500;
   letter-spacing: 0.6px;
 }
+
 .sizes-tool {
   padding: 12px;
   border-radius: 4px;
-  width: 356px;
-  height: 24px;
+  width: 35rem;
+  height: 2.4rem;
 
   display: flex;
   justify-content: center;

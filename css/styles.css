@@ -359,7 +359,6 @@ body {
   flex-direction: row;
   justify-content: center; */
   justify-items: center;
-  gap: 4.8rem;
   margin-top: 4.8rem;
 }
 
@@ -565,8 +564,14 @@ footer {
   position: relative;
 }
 .footer-container {
-  display: flex;
-  justify-content: space-evenly;
+  /* display: flex;
+  justify-content: space-evenly; */
+
+  display: grid;
+  grid-template-columns: repeat(4, 25rem);
+  justify-content: center;
+  
+  
 }
 
 .footer-end {

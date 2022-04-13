@@ -89,6 +89,10 @@
     row-gap: 6.4rem;
   }
 
+  .job-seeker-img{
+    z-index: -1;
+  }
+
   /* MOBILE NAVIGATION */
 
   .btn-mobile-nav {
@@ -99,7 +103,7 @@
   .nav {
     background-color: rgba(255, 255, 255, 0.97);
     position: absolute;
-    top: 0;
+    top: -12.8rem;
     left: 0;
     width: 100%;
     height: 100vh;
@@ -143,6 +147,10 @@
   .header-features a:link,
   .header-features a:visited {
     font-size: 3rem;
+  }
+
+  .header-btn2{
+    position: static;
   }
 
 
@@ -213,6 +221,38 @@
 
 }
 
+/* Me e vogel se 705px */
+@media(max-width: 44em){
+
+  .job-posts-container {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+
+  .footer-container {
+  
+    display: grid;
+    grid-template-columns: repeat(2, 30rem);
+    justify-content: center;
+    row-gap: 4.8rem;
+    column-gap: 4.8rem;
+    font-size: 1.8rem;
+  
+  }
+
+  /* Gjeni-pune.html */
+
+    .select-vendet-div,
+    .select-kategorite-div,
+    .submit-div {
+      margin-top: 3.2rem;
+    }
+
+
+}
+
 /**   Me e vogel se 605px   **/
 
 @media (max-width: 38em) {
@@ -220,13 +260,6 @@
   article {
 
     margin-top: 6.4rem;
-  }
-
-  .job-posts-container {
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
   }
 
   .second-sec-grid {
@@ -348,8 +381,99 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .footer-container {
+  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    row-gap: 6.4rem;
+
+    padding: 4.8rem;
+  
+  }
+
+   /* Gjeni-pune.html */
+
+   .hero-img-gjp {
+    width: 50%;
+  }
+
+  /* Forms */
 
 
+
+
+}
+
+/** Me e vogel se 385px **/
+
+@media (max-width: 24em){
+
+  .blog-img {
+    width: 32rem;
+    height: 32rem;
+   
+  }
+
+  .blog-content {
+    max-width: 32rem;
+    margin: 2.4rem auto 2.4rem auto;
+  }
+
+  .job-posts-container {
+
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .div7,
+  .div8,
+  .div9,
+  .div10,
+  .div11,
+  .div12{
+    display: none;
+  }
+
+  .nav{
+    top: -20rem;
+  }
+
+  /* Gjeni-pune.html */
+
+  .hero-img-gjp {
+    display: none;
+  }
+
+  .hero-container{
+    margin-top: 0;
+  }
+  
+  .fundit {
+    margin-left: 1.6rem;
+  }
+  
+  .shpallje-aktive {
+    margin-right: 1.6rem;
+  }
+
+  .job-description-details{
+    margin-top: 2rem;
+  }
+  
+  .job-description-details ion-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .job-card-1{
+    padding: 0.8rem;
+  }
+
+  
+
+
+ 
 }
 
 /* 
