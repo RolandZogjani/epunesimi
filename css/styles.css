@@ -65,7 +65,8 @@ body {
 
 }
 
-.nav-brand a{
+.nav-brand a:link,
+.nav-brand a:visited{
   text-decoration: none;
 }
 
