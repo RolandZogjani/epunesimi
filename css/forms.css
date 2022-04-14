@@ -190,7 +190,7 @@ body {
 
 .main-container p {
   font-size: 1.6rem;
-  color: #dee2e6;
+  color: #e6e6e6;
   margin-bottom: 12px;
 
   position: relative;
@@ -222,7 +222,7 @@ body {
 }
 
 .or {
-  color: #dee2e6;
+  color: #e6e6e6;
 
   font-size: 1.6rem;
   display: flex;
@@ -329,7 +329,7 @@ input[type="submit"]:hover {
 }
 span {
   font-size: 1.5rem;
-  color: #dee2e6;
+  color: #e6e6e6;
 }
 
 input, textarea, select 
@@ -347,7 +347,7 @@ input, textarea, select
 footer {
   font-size: 1.6rem;
   background-color: #283b8d;
-  color: #f1f3f5;
+  color: #ffffff;
 
   margin-top: 4.8rem;
   padding-top: 4.8rem;
@@ -373,7 +373,7 @@ ul li {
 }
 .ul-header a {
   text-decoration: none;
-  color: #f1f3f5;
+  color: #ffffff;
 }
 .ul-header a:hover {
   color: #adb5bd;
