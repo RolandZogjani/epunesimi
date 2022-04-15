@@ -201,6 +201,10 @@ body {
 
 }
 
+.hero-butons{
+  display: flex;
+}
+
 
 .hero-btn1,
 .hero-btn2 {
@@ -230,16 +234,8 @@ body {
   color: #180a0a;
 }
 
-/* Section 2 */
-/* #second-section {
 
-  
- 
-  display: flex;
-  justify-content: center;
-  gap: 9.6rem;
-  position: relative;
-} */
+/* Section 2 */
 
 .second-sec-grid{
   max-width: 130rem;
