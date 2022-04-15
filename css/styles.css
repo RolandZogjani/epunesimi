@@ -19,6 +19,7 @@ html {
   /*1rem = 10px */
 
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 * {
